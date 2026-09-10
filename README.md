@@ -52,6 +52,7 @@ security-agent/
 * **Document Parsers**: PyPDF, python-docx, openpyxl
 * **Vector Search**: Meta FAISS (`faiss-cpu`)
 
+---
 ## 📊 핵심 기능 및 브랜치 매핑 (Core Features & Branches)
 
 | 기능 번호 | 에이전트 기능 이름 | 핵심 작동 방식 (기술 스택) | 전용 개발 브랜치 |
