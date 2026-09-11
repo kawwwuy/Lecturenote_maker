@@ -60,5 +60,5 @@ security-agent/
 | **공통** | **초기 환경 세팅** | 웹 UI 레이아웃 뼈대 구축 (`Streamlit`), 라이브러리 목록 세팅 | `feature/0-setup` |
 | **1번 기능** | **🎬 동영상 강의노트 변환** | 동영상 오디오 추출 ➔ 음성인식 대사 변환 ➔ LLM 구조화 요약 (`moviepy`, `whisper`) | `feature/1-video-stt` |
 | **2번 기능** | **📚 다중 문서 마스터 통합** | PDF/Word/Excel/MD 파일 텍스트 추출 ➔ 중복 제거 ➔ 하나의 노트 융합 (`pypdf`, `docx`, `openpyxl`) | `feature/2-doc-merge` |
-| **3번 기능** | **💻 보안 코드 & 로그 분석** | C/Python 취약점 분석, Snort/시스템 로그 분석 및 대응 제안 (`Ollama Llama3.1`) | `feature/3-code-analyst` |
+| **3번 기능** | **💻 실습 코드 및 실습자료 지원** | 강사가 제공한 Python·머신러닝·딥러닝 실습 코드 및 네트워크/Packet Tracer 실습자료 분석 → 코드·개념 설명 → 단계별 실습 안내 → 실행 및 오류 해결 지원 | `feature/3-code-practice` |
 | **4번 기능** | **🔍 교안 기반 지식 서치** | 외부 DB 설치 없이 가상 메모리 공간 색인 ➔ 출처 기반 고속 검색 챗봇 (`faiss-cpu`, RAG 패턴) | `feature/4-rag-search` |
