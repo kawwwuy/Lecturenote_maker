@@ -34,7 +34,7 @@ security-agent/
 │   ├── __init__.py         
 │   ├── video_agent.py      # 🎬 1번 기능: 동영상 ➔ STT 강의노트
 │   ├── document_agent.py   # 📚 2번 기능: 다중 문서(PDF/Word 등) 통합
-│   ├── code_agent.py       # 💻 3번 기능: 소스 코드 및 로그 분석
+│   ├── code_agent.py       # 💻 3번 기능: 강사 실습자료 분석 → 실습 방법 안내 및 실행 지원
 │   └── search_agent.py     # 🔍 4번 기능: 교안 기반 지식 서치 챗봇 (메모리 가동)
 │
 └── utils/                  # 🛠️ 파일 텍스트 추출 도구 폴더
